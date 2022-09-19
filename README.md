@@ -18,7 +18,11 @@ python3 -m pip install --user virtualenv
 
 ## creating virtual envirnment for script
 
-```virtualenv env```
+```
+#creating virtualenv
+virtualenv env
+```
+#activating virtualenv
 activate virtualenv
 ```
 #linux
