@@ -30,7 +30,19 @@ source env/bin/activate
 you can also consider this guid for mac 
 (https://sourabhbajaj.com/mac-setup/Python/virtualenv.html)
 ## installing deps for the script
-```pip install -r req.txt```
+```pip install -r req.txt
+```
+##running script
+```
+python creanft.py
+#or
+python3 creanft.py
+#and 
+python Putonsalenft.py
+#or
+python Putonsalenft.py
+```
+
 if you didnt get any error in above process 
 then you will be able to run script smotly make sure chrome version is latest and upadated
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
