@@ -102,18 +102,18 @@ if __name__ == '__main__':
     # metamask
     WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="chakra-modal--body-3"]/div/div/button[3]'))).click()
     
-    time.sleep(6)
+    time.sleep(10)
     hc=HumanClicker()
-    nx,ny=pyautogui.locateCenterOnScreen('next.png',confidence=.8,grayscale=True)
+    nx,ny=pyautogui.locateCenterOnScreen('next.png',confidence=.7,grayscale=True)
     hc.move((nx,ny),1)
     hc.click()
-    time.sleep(5)
+    time.sleep(10)
     
-    cx,cy=pyautogui.locateCenterOnScreen('connect.png',confidence=0.8,grayscale=True)
+    cx,cy=pyautogui.locateCenterOnScreen('connect.png',confidence=0.7,grayscale=True)
     hc.move((cx,cy),1)
     hc.click()
-    time.sleep(5)
-    sx,sy=pyautogui.locateCenterOnScreen('sign.png',confidence=0.8,grayscale=True)
+    time.sleep(10)
+    sx,sy=pyautogui.locateCenterOnScreen('sign.png',confidence=0.7,grayscale=True)
     hc.move((sx,sy),1)
     hc.click()
 
