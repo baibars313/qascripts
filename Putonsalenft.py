@@ -112,7 +112,7 @@ if __name__ == '__main__':
     WebDriverWait(driver,20).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="list-item-1"]/div[1]/div[2]/div[4]/div/a'))).click()
     # nft click
     WebDriverWait(driver,20).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="nav-profile"]/div/div/div/a/img'))).click()
-    # put price
+    # put price for the nft
     WebDriverWait(driver,20).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="price"]'))).send_keys('0.1')
     time.sleep(10)
     # click put onsale
